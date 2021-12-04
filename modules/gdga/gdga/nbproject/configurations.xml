@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="gdga" displayName="gdga" projectFiles="true">
+      <logicalFolder name="gdga" displayName="gdga" projectFiles="true">
+        <itemPath>Makefile</itemPath>
+      </logicalFolder>
+      <itemPath>../crash.cpp</itemPath>
+      <itemPath>../crash.h</itemPath>
+      <itemPath>../gdga.cpp</itemPath>
+      <itemPath>../gdga.h</itemPath>
+      <itemPath>../gzip.cpp</itemPath>
+      <itemPath>../gzip.h</itemPath>
+      <itemPath>../hmac.cpp</itemPath>
+      <itemPath>../hmac.h</itemPath>
+      <itemPath>../register_types.cpp</itemPath>
+      <itemPath>../register_types.h</itemPath>
+      <itemPath>../uuid.cpp</itemPath>
+      <itemPath>../uuid.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <itemPath>godotver.h</itemPath>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>..</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <developmentMode>0</developmentMode>
+          <standard>8</standard>
+          <incDir>
+            <pElem>../../../core</pElem>
+            <pElem>../../../thirdparty/misc</pElem>
+          </incDir>
+          <incFile>
+            <pElem>../../../core</pElem>
+            <pElem>../../../thirdparty/misc</pElem>
+          </incFile>
+        </ccTool>
+      </compileType>
+      <item path="../crash.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../crash.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../gdga.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../gdga.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../gzip.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../gzip.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../hmac.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../hmac.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../register_types.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../register_types.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../uuid.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../uuid.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Makefile" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="godotver.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>0</developmentMode>
+          <standard>8</standard>
+          <incDir>
+            <pElem>../../../core</pElem>
+            <pElem>../../../thirdparty/misc</pElem>
+          </incDir>
+          <incFile>
+            <pElem>../../../core</pElem>
+            <pElem>../../../thirdparty/misc</pElem>
+          </incFile>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="../crash.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../crash.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../gdga.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../gdga.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../gzip.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../gzip.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../hmac.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../hmac.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../register_types.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../register_types.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../uuid.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../uuid.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Makefile" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="godotver.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

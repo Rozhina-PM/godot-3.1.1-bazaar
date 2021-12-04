@@ -1,0 +1,16 @@
+    <provider
+          android:name="androidx.core.content.FileProvider"
+          android:grantUriPermissions="true"
+          android:exported="false"
+          android:authorities="${applicationId}">
+
+          <meta-data
+              android:name="android.support.FILE_PROVIDER_PATHS"
+              android:resource="@xml/file_provider_paths"/>
+
+    </provider>
+
+<receiver android:name="org.godotengine.godot.NotifRecv"
+    android:enabled="true" android:process=":remote" />
+
+<activity android:name="org.godotengine.godot.WebViewAct" />
